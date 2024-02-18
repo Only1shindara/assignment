@@ -1,0 +1,11 @@
+<?php
+$i;
+$d;
+$s;
+$i = intval(trim(fgets(STDIN)));
+$d = doubleval(trim(fgets(STDIN)));
+$s = rtrim(fgets(STDIN));
+echo ($i + $i) . "\n";
+echo number_format(($d + $d), 1, '.', '') . "\n";
+echo "Polyilaro " . $s;
+?>
